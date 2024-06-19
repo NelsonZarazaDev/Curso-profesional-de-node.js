@@ -1,0 +1,23 @@
+{
+  "name": "twittr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "dev:debug":"DEBUG=express:*,app:* npm run dev",
+    "test": "jest --watchAll",
+    "test:watch":"npm run test -- --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@hapi/joi": "^17.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jest": "^29.7.0",
+    "mysql2": "^3.9.7"
+  }
+}

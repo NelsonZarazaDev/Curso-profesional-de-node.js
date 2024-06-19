@@ -1,0 +1,9 @@
+
+
+const ONE_MINUTE_IN_SECONDS = 60;
+const FIVE_MIUTES_IN_SECONDS = 300;
+
+module.exports = {
+  ONE_MINUTE_IN_SECONDS,
+  FIVE_MIUTES_IN_SECONDS,
+};
